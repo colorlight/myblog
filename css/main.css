@@ -1,0 +1,192 @@
+nav{
+	background: #ccc;
+	height: 50px;
+	position: fixed;
+	top:0px;
+	width:100%;
+	z-index: 10;
+	/*left: 0px;*/
+}
+
+#banner{
+	margin-top: 50px;
+	background: #777;
+	height: 700px;
+
+
+}
+
+nav ul{
+	list-style: none;
+	float :right;
+	margin: 0;
+}
+
+nav ul li, nav .logo{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	line-height: 50px;
+	text-decoration: none;
+	display: inline-block;
+	line-height: inherit;
+	height: inherit;
+	color:#fff;
+
+}
+
+
+
+#banner .inner{
+	max-width:300px;
+	text-align:center;
+	position:relative;
+	top:150px;
+	margin:0 auto;
+	color:#3ef;
+}
+
+#banner .inner h1{
+	margin: 0;
+}
+
+button
+{
+	border:none;
+	background: #333;
+	color: #eee;
+	padding:10px;
+}
+
+#banner .inner button{
+
+	padding: 20px 40px;
+}
+
+.sub-heading{
+	line-height:30px;
+}
+
+.more{
+	margin-top: 200px;
+}
+
+nav .logo {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+	/*display: inline-block; */
+	line-height: 50px;  /*这个是我为了居中，就和nav设置成一样的大小*/
+	padding-left:10px;  /*这个是我为了增大log的体积*/
+}
+
+nav .logo a{
+	color:#fff;
+	text-decoration: none
+}
+
+hr{
+	height: 2px;
+	margin: 0px;
+	border:none;
+	border-top: solid #fff;
+}
+
+.hrline-top{
+	margin-bottom: 5px;
+}
+
+.hrline-bottom{
+	margin-top: 5px;
+}
+
+h2{
+	font-size: 30px;
+	margin: 0px;
+}
+.wrapper{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.green-section{
+	text-align: center;
+	background: #20c6d0;
+	padding: 100px;
+	color: #fff;
+}
+
+.green-section .hr{
+
+	width: 60%;
+	height: 2px;
+	margin:20px auto;
+	background: #40aba2;
+}
+
+.wrapper .icon-group{
+	margin-top: 60px;
+}
+
+.wrapper .icon-group .icon{
+	display: inline-block;
+	width: 80px;
+	height:80px;
+	background: #40abaa;
+	transform: rotate(45deg);
+	margin: 20px;
+}
+
+.gray-section{
+	background: #696060;
+}
+
+.gray-section .article-preview .img-section{
+	width: 45%;
+	display: inline-block;
+}
+
+.gray-section .article-preview .img-section img{
+	width: 100%;
+}
+
+.gray-section .article-preview .text-section{
+	color: #fff;
+	max-width: 45%;
+}
+
+.gray-section .article-preview > div{
+		float: left;
+}
+
+/*.article-preview:after{
+	content:"";
+	display:block;
+	clear: both;
+}*/
+
+.article-preview{
+	overflow: auto;
+	width:100%;
+}
+
+#ads{
+	/*display:inline-block;*/
+	/*float:right;*/
+	width: 50px;
+	height: 50px;
+	background-color: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	/*bottom: 0px;*/
+  	/*right: 0px;*/
+  	/*margin: 5% auto;*/
+  	/*margin-top: -25px;*/
+  	/*margin-left:-25px;*/
+	position: fixed;
+}
