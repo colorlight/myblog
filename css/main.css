@@ -143,6 +143,7 @@ h2{
 
 .gray-section{
 	background: #696060;
+
 }
 
 .gray-section .article-preview .img-section{
@@ -156,22 +157,29 @@ h2{
 
 .gray-section .article-preview .text-section{
 	color: #fff;
-	max-width: 45%;
+	width: 55%;
 }
 
 .gray-section .article-preview > div{
 		float: left;
 }
 
-/*.article-preview:after{
+
+/*
+.article-preview:after{
 	content:"";
 	display:block;
 	clear: both;
 }*/
 
 .article-preview{
-	overflow: auto;
+	overflow: hidden;
 	width:100%;
+	font-size: 0;
+	/*height : 295;*/
+}
+.article-preview:nth-child(odd){
+	background-color: rgba(255,255,255,0.05);
 }
 
 #ads{
@@ -182,11 +190,36 @@ h2{
 	background-color: #000;
 	color: #fff;
 	top: 50%;
-	left: 50%;
+	right: 0px;
 	/*bottom: 0px;*/
   	/*right: 0px;*/
   	/*margin: 5% auto;*/
   	/*margin-top: -25px;*/
   	/*margin-left:-25px;*/
 	position: fixed;
+}
+
+.text-section{
+
+	position:relative;
+	top:  68px;
+	left: 50px;
+}
+
+.text-section h2{
+	margin-bottom: 20px;
+}
+
+.text-section .sub-heading{
+	font-size: 22px;
+
+}
+
+.text-section p{
+	font-size:18px;
+	letter-spacing:1px;
+}
+
+.text-section *{
+	max-width: 90%;
 }
