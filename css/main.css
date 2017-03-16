@@ -223,3 +223,24 @@ h2{
 .text-section *{
 	max-width: 90%;
 }
+
+.purple-section{
+	padding: 80px;
+	background: #3F3965;
+	color:#fff;
+}
+
+.purple-section .heading-wrapper{
+
+	text-align: center;
+}
+
+.card{
+	float:left;
+	width:50%;
+	min-height:300px;
+}
+
+.bfc{
+	overflow:hidden;
+}
