@@ -308,7 +308,7 @@ footer{
 }
 
 .share-group{
-	width: 1080px;
+	width: 89%;
 	margin: 0 auto;
 	padding: 50px;
 	
@@ -328,10 +328,19 @@ footer{
 	background-position:  center;
 }
 
+.profile-wrapper{
+
+	height: 400px;
+	padding: 10px;
+}
 
 .profile{
 	/*max-height: 400px;*/
-	padding: 200px;
+	height: 200px;
+	margin-top: 200px;
+
+
+
 }
 
 .profile > span:nth-child(1){
