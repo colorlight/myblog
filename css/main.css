@@ -149,6 +149,27 @@ h3{
 	margin: 20px;
 }
 
+
+
+
+.videoWrapper{
+	position: absolute;
+	width: 100%;
+	z-index: 5;
+}
+
+#bgv{
+	width:100%;
+}
+
+.videoText{
+	height: 800.44px;
+	position: relative;
+	z-index:10;
+	color: #fff;
+	text-align: center;
+}
+
 .gray-section{
 	background: #696060;
 
