@@ -168,6 +168,14 @@ h3{
 	z-index:10;
 	color: #fff;
 	text-align: center;
+	overflow: hidden;
+	/*padding:20px 0px;*/ 
+	/*在高度设定的情况下，在增加padding会增加尺寸*/
+}
+
+.videoText h3{
+	margin-top: 100px;
+	font-size: 30px;
 }
 
 .gray-section{
