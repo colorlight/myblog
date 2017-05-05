@@ -5,4 +5,4 @@
 我会按照日期更新，最后commit中会记录我的完成天数。
 
 现在的项目预览地址 
-http://colorlight.f3322.net:678
+http://www.colorlight.me:8082

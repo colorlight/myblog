@@ -202,8 +202,8 @@ h3{
 }
 
 
-/*
-.article-preview:after{
+
+/*.article-preview:after{
 	content:"";
 	display:block;
 	clear: both;
